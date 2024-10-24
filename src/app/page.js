@@ -1,9 +1,12 @@
-import LoginPage from "@/components/Login/LoginPage";
+import AppBar from "@/components/AppBar";
+import Dashboard from "@/components/Dashboard";
 
-export default function Login() {
+export default function Home() {
   return (
-    <div>
-      <LoginPage/>
-    </div>
+  <div>
+    <AppBar/>
+    <Dashboard/>
+  </div>
   );
 }
+
